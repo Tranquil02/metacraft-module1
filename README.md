@@ -1,4 +1,7 @@
-# MyContract
+# MetaCraft - ETH + AVAX Project
+
+
+## MyContract
 
 MyContract is a simple Solidity smart contract designed to manage a single `uint` value. It includes functions to set, increment, and reset the value with various checks and validations.
 
