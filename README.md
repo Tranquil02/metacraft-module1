@@ -24,19 +24,19 @@ Allows a user to purchase an insurance policy by providing a premium and coverag
 ```solidity
 function purchasePolicy(uint _premium, uint _coverageAmount) public;
 ```
-####_premium: The amount the user pays for the policy.
-####_coverageAmount: The amount the user will be covered for.
+#### _premium: The amount the user pays for the policy.
+#### _coverageAmount: The amount the user will be covered for.
 
-###Claim Insurance
-#####Allows a user to claim their insurance. After claiming, the policy is deactivated.
+### Claim Insurance
+##### Allows a user to claim their insurance. After claiming, the policy is deactivated.
 
 ```solidity
 function claimInsurance() public;
 ```
-####This function checks if the policy is active and if there is coverage available. If so, it deactivates the policy.
+#### This function checks if the policy is active and if there is coverage available. If so, it deactivates the policy.
 
-###Get Policy Details
-####Returns the details of the user's policy.
+### Get Policy Details
+#### Returns the details of the user's policy.
 
 ```solidity
 function getPolicyDetails() public view returns (uint, uint, bool);
