@@ -1,8 +1,8 @@
-# SimpleInsurance Smart Contract
+# Insurance Smart Contract
 
 ## Overview
 
-The `SimpleInsurance` smart contract is a simple insurance policy management system on the Ethereum blockchain. It allows users to purchase an insurance policy, check their policy details, and claim insurance under certain conditions.
+The `Insurance` smart contract is a simple insurance policy management system on the Ethereum blockchain. It allows users to purchase an insurance policy, check their policy details, and claim insurance under certain conditions.
 
 ## Features
 
